@@ -12,10 +12,10 @@ const Home = () => {
 			<Header />
 			<main className="container d-flex justify-content-center my-5">
 				<div className="container m-5">
-					<h1 className="text-left">Denison Kolling</h1>
+					<h1 className="text-center">Denison Kolling</h1>
 					<br />
 					<div className="text-end">
-						<strong>Desenvolvedor Full Stack</strong>
+						<strong>Full Stack Developer</strong>
 						<div className="d-flex flex-column">
 							<span>JavaScript</span>
 							<span>React</span>
@@ -26,19 +26,19 @@ const Home = () => {
 						</div>
 					</div>
 
-					<p className='lh-lg text m-5'>
-						Estudante de TI em tempo integral. Com base na minha experiência no
-						setor de logística, aprimorei minhas habilidades de resolução de
-						problemas para enfrentar os desafios encontrados em empresas e
-						negócios. Escolhi Java como principal linguagem de programação para
-						desenvolver soluções de TI robustas e confiáveis.
+					<p className="lh-lg m-5">
+						Full-time developer. Based on my experience in the logistics
+						industry, I have honed my problem-solving skills to tackle
+						challenges encountered in companies and businesses. I have chosen
+						Java as my main programming language to develop robust and reliable
+						IT solutions.
 					</p>
-					<h1>Tecnologias Aplicadas em Projetos</h1>
-					<div class="row row-cols-1 row-cols-md-3 g-4 m-4">
-						<div class="col">
+					<h1 className='text-center'>Technologies Applied in Projects.</h1>
+					<div class="row row-cols-1 row-cols-md-3 g-4 m-4 d-flex align-items-stretch">
+						<div class="col d-flex align-items-stretch">
 							<Card
 								title="React"
-								text="Com o React, sua empresa desfrutará de interfaces de usuário modernas e atraentes, que melhorarão a experiência do usuário e atraem mais clientes. Possuí processo de desenvolvimento acelerado. A performance otimizada garante que seus aplicativos sejam responsivos e rápidos. Além disso, a ampla comunidade de desenvolvedores e o suporte contínuo da equipe do React garantem que suas aplicações atualizadas e seguras. React é uma tecnologia confiável e poderosa que oferece resultados excelentes."
+								text="React is a modern user interfaces development library, enhancing the user experience. It enables an accelerated development process. Optimized performance ensures your applications are responsive and fast. Moreover, the extensive developer community and continuous support from the React team ensure your applications stay updated and secure. React is a reliable and powerful technology that delivers excellent results."
 								image={react_logo}
 								footer="Front-end"
 							/>
@@ -46,7 +46,7 @@ const Home = () => {
 						<div class="col">
 							<Card
 								title="Java"
-								text="Java é uma linguagem confiável, segura e de alto desempenho, o que proporciona estabilidade e escalabilidade para a aplicação. Sua ampla comunidade e rica biblioteca de frameworks facilitam o desenvolvimento rápido e eficiente. Além disso, a portabilidade do Java permite que a aplicação seja executada em diversas plataformas, tornando-a mais acessível para os usuários. Com Java, sua aplicação estará bem posicionada para enfrentar os desafios do desenvolvimento web moderno."
+								text="Java is a reliable, secure, and high-performance language, providing stability and scalability to the application. Its extensive community and rich library of frameworks enable rapid and efficient development. Additionally, Java's portability allows the application to run on various platforms, making it more accessible to users. With Java, your application will be well-equipped to tackle the challenges of modern web development."
 								image={java_logo}
 								footer="Back-end"
 							/>
@@ -54,9 +54,9 @@ const Home = () => {
 						<div class="col">
 							<Card
 								title="PostgreSQL"
-								text="O banco de dados de alta confiabilidade, robustez e segurança. Garantindo consistência dos dados. Sua flexibilidade permite o uso de tipos de dados personalizados, funções e procedimentos armazenados. O PostgreSQL é de código aberto, o que o torna economicamente acessível, e sua comunidade ativa oferece atualizações e suporte contínuo. A escalabilidade e o desempenho são excelentes, tornando-o uma escolha ideal para aplicações de qualquer tamanho."
+								text="The PostgreSQL database is highly reliable, robust, and secure, ensuring data consistency. Its flexibility allows the use of custom data types, functions, and stored procedures. PostgreSQL is open-source, making it economically accessible, and its active community provides continuous updates and support. The scalability and performance are excellent, making it an ideal choice for applications of any size at any time."
 								image={postgres_logo}
-								footer="Banco de Dados"
+								footer="Database"
 							/>
 						</div>
 					</div>
