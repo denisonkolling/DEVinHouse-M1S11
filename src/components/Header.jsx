@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
@@ -20,31 +21,20 @@ const Header = () => {
 						id="navbarNavDropdown">
 						<ul className="navbar-nav text-center  font-family-sans-serif">
 						<li className="nav-item h4 fw-bold mx-2">
-							<a href="#" className="nav-link pe-auto">
+							<Link to="/" className="nav-link pe-auto">
 									home
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item h4 fw-bold mx-2">
-							<a href="#" className="nav-link">
-									services
-								</a>
-							</li>
-							<li className="nav-item h4 fw-bold mx-2">
-							<a href="#" className="nav-link">
-									portifolio
-								</a>
-							</li>
-							<li className="nav-item h4 fw-bold mx-2">
-								<a href="#" className="nav-link">
+							<Link to="about" className="nav-link">
 									about
-								</a>
+								</Link>
 							</li>
 							<li className="nav-item h4 fw-bold mx-2">
-							<a href="#" className="nav-link">
-									contact
-								</a>
+							<Link to="portfolio" className="nav-link">
+									portifolio
+								</Link>
 							</li>
-							<li className="nav-item dropdown"></li>
 						</ul>
 					</div>
 				</div>
