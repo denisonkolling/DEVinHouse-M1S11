@@ -34,8 +34,8 @@ const Home = () => {
 						IT solutions.
 					</p>
 					<h1 className='text-center'>Technologies Applied in Projects.</h1>
-					<div class="row row-cols-1 row-cols-md-3 g-4 m-4 d-flex align-items-stretch">
-						<div class="col d-flex align-items-stretch">
+					<div class="row row-cols-1 row-cols-md-3 g-4 m-4">
+						<div class="col">
 							<Card
 								title="React"
 								text="React is a modern user interfaces development library, enhancing the user experience. It enables an accelerated development process. Optimized performance ensures your applications are responsive and fast. Moreover, the extensive developer community and continuous support from the React team ensure your applications stay updated and secure. React is a reliable and powerful technology that delivers excellent results."
