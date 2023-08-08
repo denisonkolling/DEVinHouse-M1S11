@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import './styles.css'
 
 const Header = () => {
 	return (
@@ -21,7 +22,7 @@ const Header = () => {
 						id="navbarNavDropdown">
 						<ul className="navbar-nav text-center  font-family-sans-serif">
 						<li className="nav-item h4 fw-bold mx-2">
-							<Link to="/" className="nav-link pe-auto">
+							<Link to="/" className="nav-link">
 									home
 								</Link>
 							</li>
