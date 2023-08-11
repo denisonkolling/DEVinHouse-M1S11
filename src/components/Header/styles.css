@@ -1,8 +1,8 @@
-.nav-link {
-  border-bottom: 5px solid transparent;
+.nav-item {
+  border-bottom: 3px solid transparent;
 }
 
-.nav-link:hover {
-  border-bottom: 5px solid grey;
-  transition-duration: 0.5s;
+.nav-item:hover {
+  border-bottom: 3px solid grey;
+  transition-duration: 1s;
 }

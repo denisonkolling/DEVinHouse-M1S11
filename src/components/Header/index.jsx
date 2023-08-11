@@ -20,7 +20,7 @@ const Header = () => {
 					<div
 						className="collapse navbar-collapse flex-grow-0"
 						id="navbarNavDropdown">
-						<ul className="navbar-nav text-center  font-family-sans-serif">
+						<ul className="navbar-nav text-center font-family-sans-serif">
 						<li className="nav-item h4 fw-bold mx-2">
 							<Link to="/" className="nav-link">
 									home

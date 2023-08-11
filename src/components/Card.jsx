@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = ({ title, text, image, footer }) => {
 	return (
-		<div class="col">
+		<div class="col d-flex align-items-stretch">
 			<div class="card">
 				<img src={image} class="card-img-top p-4" alt="..." />
 				<div class="card-body">
